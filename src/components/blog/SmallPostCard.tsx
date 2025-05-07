@@ -28,7 +28,7 @@ const SmallPostCard = ({ post }: SmallPostCardProps) => {
         <p className="text-gray-600 text-sm mb-4 line-clamp-3">{post.excerpt}</p>
         
         {/* Footer - pushed to bottom */}
-        <div className="mt-auto pt-4 border-t border-gray-100">
+        <div className="mt-auto pt-4">
           <div className="flex justify-between items-center">
             <button className="text-[#EBB23E] text-sm hover:text-[#4B4B4B] font-medium">
               Read More →

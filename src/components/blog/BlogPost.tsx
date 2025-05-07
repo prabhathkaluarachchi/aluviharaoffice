@@ -75,7 +75,7 @@ const BlogPost = ({ post }: BlogPostProps) => {
       {/* Content */}
       <div className="p-6">
         <div className="flex justify-between items-start mb-2">
-        <h2 className="text-3xl md:text-3xl text-[#4B4B4B] font-roboto font-[500]">
+          <h2 className="text-3xl md:text-3xl text-[#4B4B4B] font-roboto font-[500]">
             {post.title}
           </h2>
           <span className="text-sm text-[#70707030] mt-1 whitespace-nowrap font-roboto">
@@ -83,7 +83,7 @@ const BlogPost = ({ post }: BlogPostProps) => {
           </span>
         </div>
 
-        <p className="text-[#4F4C53] text-lg leading-relaxed line-clamp-5 mb-6 font-roboto">
+        <p className="text-[#4F4C53] text-[20px] font-medium leading-[35px] line-clamp-5 mb-6 font-roboto text-justify">
           {post.excerpt}
         </p>
 
@@ -104,4 +104,3 @@ const BlogPost = ({ post }: BlogPostProps) => {
 };
 
 export default BlogPost;
-
