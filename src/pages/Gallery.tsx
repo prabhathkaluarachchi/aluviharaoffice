@@ -1,9 +1,19 @@
-const Gallery = () => {
-    return (
-      <main className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold">Gallery Page</h1>
-      </main>
-    );
-  };
-  
-  export default Gallery;
+// src/pages/GalleryPage.tsx
+import TimelessHeritage from '../components/gallery/TimelessHeritage';
+import DiscoverHighlights from '../components/gallery/DiscoverHighlights';
+import GalleryGrid from '../components/gallery/GalleryGrid';
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Hero from '@/components/gallery/Hero';
+export default function Gallery() {
+  return (
+    <main>
+      <Navbar/>
+      <Hero />
+      <TimelessHeritage />
+      <DiscoverHighlights />
+      <GalleryGrid />
+      <Footer/>
+    </main>
+  );
+}
