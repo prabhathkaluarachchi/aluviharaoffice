@@ -19,16 +19,16 @@ export default function DiscoverHighlights() {
           <img
             src="/gallery/cave.png"
             alt="Cave view"
-            className="absolute left-[-150px] top-[-300px] w-[800px] max-w-none rounded-md z-10 hidden md:block" // Hidden on mobile and shown on md and larger screens
+            className="absolute left-[-150px] top-[-320px] w-[800px] max-w-none rounded-md z-10 hidden lg:block" // Hidden on mobile and shown on md and larger screens
           />
         </div>
 
         {/* Right: Titles */}
         <div className="z-20">
-          <p className="text-[#EBB23E] text-[48px] font-medium leading-[1]">
+          <p className="text-[#EBB23E] text-[36px] md:text-[48px] font-medium leading-[1]">
             Discover
           </p>
-          <h2 className="text-[70px] font-bold text-black mb-6 leading-[1]">
+          <h2 className="text-[48px] md:text-[70px] font-bold text-black mb-6 leading-[1]">
             Highlights
           </h2>
         </div>
@@ -36,4 +36,3 @@ export default function DiscoverHighlights() {
     </section>
   );
 }
-

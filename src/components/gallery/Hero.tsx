@@ -1,4 +1,6 @@
 const Hero = () => {
+
+
   return (
     <div className="relative min-h-[500px] md:min-h-[600px] flex items-center">
       {/* Background Image with Overlay */}
