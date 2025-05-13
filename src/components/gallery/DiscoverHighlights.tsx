@@ -3,16 +3,6 @@ import React from "react";
 export default function DiscoverHighlights() {
   return (
     <section className="relative bg-white py-10 px-4 md:px-20 overflow-visible">
-      {/* Background image scaling */}
-      <div
-        className="absolute left-0 top-0 w-full h-full bg-no-repeat bg-left opacity-10 pointer-events-none"
-        style={{
-          backgroundImage: "url(/gallery/cave.png)",
-          backgroundSize: "250%", // Scale the background to 250% of the container size
-          backgroundPosition: "center", // Ensures the background is centered
-        }}
-      ></div>
-
       <div className="relative z-10 grid md:grid-cols-2 items-center gap-10">
         {/* Left: Image overflowing to the top */}
         <div className="relative z-20">
